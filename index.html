@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banerjee Rentals - Premium Car Rental Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-crown"></i> Banerjee Rentals
+            </div>
+            <div class="header-contact">
+                <span><i class="fas fa-phone"></i> (+91) 980950250 </span>
+                <span><i class="fas fa-clock"></i> 24/7 Available</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop>
+            <source src="/Images/background-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Experience Premium Luxury Travel</h1>
+                    <h2>Banerjee Family's Premium Car Rental Service</h2>
+                    <p>For three generations, our family has provided exceptional transportation services with care, reliability, and the highest standards of luxury.</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#services" class="btn btn-secondary">Our Services</a>
+                    </div>
+                </div>
+
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Safe & Secure</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-tag"></i>
+                        <span>Best Rates</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-car"></i>
+                        <span>Luxury Fleet</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Professional Drivers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our Premium Services</h2>
+            <p class="section-subtitle">Experience the finest car rental service with our family-owned exclusive offerings</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Wedding Services">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <h3>Wedding Services</h3>
+                        <p>Luxury cars for your special day with professional chauffeurs in formal attire</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Event Transportation">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Event Transportation</h3>
+                        <p>Arrive in style for parties, corporate events, and special occasions</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Airport Transfers">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h3>Airport Transfers</h3>
+                        <p>Punctual airport pickup and drop-off services with flight monitoring</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Touring & Sightseeing">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h3>Touring & Sightseeing</h3>
+                        <p>Comfortable vehicles for exploring new places with experienced drivers</p>
+                    </div>
+                </div>
+                
+                <div class="service-card medical-emergency">
+                    <div class="service-image">
+                        <img src="./Images/Medical.png" alt="Medical Emergency">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-ambulance"></i>
+                        </div>
+                        <h3>Medical Emergency</h3>
+                        <p>24/7 available vehicles for medical appointments and emergencies</p>
+                        <div class="discount-note">
+                            <i class="fas fa-tag"></i> 10-15% discount on fare
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./Images/Corporate.png" alt="Corporate Travel">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Corporate Travel</h3>
+                        <p>Professional transportation for business meetings and corporate events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="dark-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Operated Since 2016</h2>
+                    <p>Banerjee Rentals: Where a rich heritage meets the highest standards of luxury, safety, and reliability to deliver truly exceptional transportation.</p>
+                    <p>Our values are rooted in treating every customer like family, ensuring your journey is not just a ride but an experience to remember. We've maintained the same dedication to excellence.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">9+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Happy Trips</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Service Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./Images/logo-main.png" alt="Banerjee Family">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <div class="container">
+            <h2 class="section-title">Book Your Premium Ride</h2>
+            <p class="section-subtitle">Reserve your luxury vehicle in just a few simple steps</p>
+            
+            <div class="booking-form-container">
+                <div class="booking-image">
+                    <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Luxury Car Interior">
+                </div>
+                
+                <div class="booking-form">
+                    <form id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="number" id="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pickup">Pickup Location *</label>
+                                <input type="text" id="pickup" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="destination">Destination *</label>
+                                <input type="text" id="destination" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="datetime">Date & Time *</label>
+                                <input type="datetime-local" id="datetime" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="passengers">Number of Passengers *</label>
+                                <input type="number" id="passengers" min="1" max="8" value="1" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="carType">Car Type *</label>
+                                <select id="carType" required>
+                                    <option value="">Select car type</option>
+                                    <option value="sedan">Big SUV (Scorpio N)</option>
+                                    <option value="suv">SUV (Ertiga)</option>
+                                    <option value="luxury">Family Car (Breeza)</option>
+                                    <option value="van">Compact Car (Wagon R)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="ac">AC / Non-AC *</label>
+                                <select id="ac" required>
+                                    <option value="ac">AC</option>
+                                    <option value="non-ac">Non-AC</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="tripType">Trip Type *</label>
+                                <select id="tripType" required>
+                                    <option value="one-way">One Way</option>
+                                    <option value="round-trip">Round Trip</option>
+                                    <option value="hourly">Hourly Rental</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="occasion">Special Occasion (Optional)</label>
+                                <select id="occasion">
+                                    <option value="">Select occasion</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="airport">Airport Transfer</option>
+                                    <option value="touring">Touring</option>
+                                    <option value="sightseeing">Sightseeing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Special Requests (Optional)</label>
+                            <textarea id="message" rows="3" placeholder="Any special requirements or instructions..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Confirm Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars">
+        <div class="container">
+            <h2 class="section-title">Our Premium Fleet</h2>
+            <p class="section-subtitle">Choose from our collection of luxury vehicles</p>
+            
+            <div class="cars-grid">
+                <!-- Car 1 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <div class="car-gallery">
+                            <div class="car-slides">
+                                <div class="slide active">
+                                    <img src="./Images/Scoripio - Front.jpg" alt="Scoripio Front View">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/Scorpio - Side.jpg" alt="Scoripio Side">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/Scorpio - Back.jpg" alt="Scoripio Back">
+                                </div>
+                            </div>
+                            <div class="gallery-controls">
+                                <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                                <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="gallery-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Mahindra Scorpio N</h3>
+                        <p>Comfortable SUV for Family Travel</p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-user"></i> 7 Seats</span>
+                            <span><i class="fas fa-snowflake"></i> AC</span>
+                            <span><i class="fas fa-tachometer-alt"></i> Manual</span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> 18KM/L</span>
+                            <span><i class="fas fa-suitcase"></i> 4 Bags</span>
+                        </div>
+                        <div class="car-price">From ₹3500/Day</div>
+                        <button class="btn btn-primary select-car" data-car-type="sedan">Select This Car</button>
+                    </div>
+                </div>
+                
+                <!-- Car 2 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <div class="car-gallery">
+                            <div class="car-slides">
+                                <div class="slide active">
+                                    <img src="./Images/Eartiga- Front.jpg" alt="Eartiga- Front">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/Eartiga - Back.jpg" alt="Eartiga - Back">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/" alt="Ford Explorer Interior">
+                                </div>
+                            </div>
+                            <div class="gallery-controls">
+                                <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                                <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="gallery-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Maruti Eartiga</h3>
+                        <p>Spacious SUV for long rides </p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-user"></i> 7 Seats</span>
+                            <span><i class="fas fa-snowflake"></i> AC</span>
+                            <span><i class="fas fa-tachometer-alt"></i> Manual</span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> 20 KM/L</span>
+                            <span><i class="fas fa-suitcase"></i> 5 Bags</span>
+                        </div>
+                        <div class="car-price">From ₹2800/Day</div>
+                        <button class="btn btn-primary select-car" data-car-type="suv">Select This Car</button>
+                    </div>
+                </div>
+                
+                <!-- Car 3 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <div class="car-gallery">
+                            <div class="car-slides">
+                                <div class="slide active">
+                                    <img src="./Images/Brezza - Front.jpg" alt="Brezza - Front">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/" alt="Brezza - Side">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/" alt="Brezza - Back">
+                                </div>
+                            </div>
+                            <div class="gallery-controls">
+                                <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                                <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="gallery-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Maruti Brezza </h3>
+                        <p>Comfortable Hatchback </p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-user"></i> 4 Seats</span>
+                            <span><i class="fas fa-snowflake"></i> AC</span>
+                            <span><i class="fas fa-tachometer-alt"></i> Manual</span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> 25 KM/L</span>
+                            <span><i class="fas fa-suitcase"></i> 3 Bags</span>
+                        </div>
+                        <div class="car-price">From ₹2000/Day</div>
+                        <button class="btn btn-primary select-car" data-car-type="luxury">Select This Car</button>
+                    </div>
+                </div>
+                
+                <!-- Car 4 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <div class="car-gallery">
+                            <div class="car-slides">
+                                <div class="slide active">
+                                    <img src="./Images/Wagon R.jpg" alt="Wagon R - Front">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/WagonR - Back.jpg" alt="Wagon R - Back">
+                                </div>
+                                <div class="slide">
+                                    <img src="./Images/" alt="Wagon R - Side">
+                                </div>
+                            </div>
+                            <div class="gallery-controls">
+                                <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                                <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="gallery-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Maruti Wagon R</h3>
+                        <p>Van for large groups and family vacations</p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-user"></i> 8 Seats</span>
+                            <span><i class="fas fa-snowflake"></i> AC</span>
+                            <span><i class="fas fa-tachometer-alt"></i> Automatic</span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> 22 MPG</span>
+                            <span><i class="fas fa-suitcase"></i> 6 Bags</span>
+                        </div>
+                        <div class="car-price">From $90/day</div>
+                        <button class="btn btn-primary select-car" data-car-type="van">Select This Car</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="dark-section">
+        <div class="container">
+            <h2 class="section-title">Customer Experiences</h2>
+            <p class="section-subtitle">See what our valued clients say about their journeys with us</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Banerjee Rentals provided exceptional service for our wedding. The car was pristine and the driver was extremely professional. Made our special day even more memorable!"</p>
+                        <div class="testimonial-images">
+                            <div class="testimonial-image">
+                                <img src="https://images.unsplash.com/photo-1502872362488-6f57c2c5ef2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Wedding Car">
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Wedding Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I use Banerjee Rentals for all my airport transfers. Their punctuality and professional service have never disappointed me. Highly recommended for business travelers!"</p>
+                        <div class="testimonial-images">
+                            <div class="testimonial-image">
+                                <img src="https://images.unsplash.com/photo-1445109673451-c511bbaf1d69?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Business Travel">
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Michael Chen">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Business Traveler</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"We rented a van for our family vacation and were thoroughly impressed. The vehicle was clean, comfortable, and the driver was knowledgeable about the area. Great experience!"</p>
+                        <div class="testimonial-images">
+                            <div class="testimonial-image">
+                                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Family Vacation">
+                            </div>
+                            <div class="testimonial-image">
+                                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Car Interior">
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Emily Rodriguez">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>Family Vacation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Banerjee Rentals</h3>
+                    <p>Premium car rental services with professional drivers for all your transportation needs. Experience luxury, comfort, and reliability.</p>
+                    <div class="social-icons">
+                        <a href="#" title="Visit our Facebook page"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Bunglowside, Anara, Purulia</p>
+                    <p><i class="fas fa-phone"></i> (+91) 9800950250</p>
+                    <p><i class="fas fa-envelope"></i> info@banerjeerentals.com</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Service Available</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#cars">Our Fleet</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>2025! Banerjee Rentals. All rights reserved. | Designed with <i class="fas fa-heart"></i> for luxury travel</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
